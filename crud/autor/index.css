@@ -1,0 +1,51 @@
+body{
+    background-color: #1e1e1e;
+    color: lightgray;
+    font-family: "Segoe UI";
+    /* text-shadow: 0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000; */
+}
+
+input{
+    background-color: #000;
+    color: white;
+    border: 1px solid lightgray;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* th, td{
+    border: 1px solid lightgray;
+} */
+
+tr{
+    border-bottom: 1px solid #4e4e4e;
+}
+
+th, td{
+    padding: 8px;
+}
+
+div.flex-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+div.flex-rows {
+    display: flex;
+    flex-direction: column;
+}
+
+div.grow {
+    flex-grow: 1;
+}
+
+div.error-message{
+    color: red;
+    font-weight: bold;
+}
